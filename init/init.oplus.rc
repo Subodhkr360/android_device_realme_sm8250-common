@@ -4,8 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-import /odm/init.oplus.face.rc
-
 on init
     # Charger
     write /proc/fastchg_fw_update 1
